@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args){
-
         int [][] trianglePascal = new int[10][10];
-
         for (int i = 0; i < trianglePascal.length; i++){
             for (int j = 0; j <= i; j++){
                 trianglePascal[i][0] = 1;
